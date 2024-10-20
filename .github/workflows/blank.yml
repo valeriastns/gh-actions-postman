@@ -34,4 +34,4 @@ jobs:
         run: |
          curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
          postman login --with-api-key PMAK-67125eff25368400019f2766-9605a1825b12507900b3a7f63217d9b005
-         postman collection run "38777038-65b4e185-2b4e-43fd-aede-60f22ef9901e" -e "38777038-14b2387b-e3d7-4ebe-9260-371fcd9de569"
+         postman collection run 38777038-65b4e185-2b4e-43fd-aede-60f22ef9901e -e 38777038-14b2387b-e3d7-4ebe-9260-371fcd9de569
